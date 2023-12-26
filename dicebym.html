@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice game</title>
+    <link rel="stylesheet" href="dicebym.css">
+</head>
+<body>
+    
+    <div class="top">
+        <h1 class="start">Lets Play</h1>
+        <div class="player">
+            <h3 id="player1Label" class="player1">Player 1</h3>
+            <h3 id="player2Label" class="player2">Player 2</h3>
+        </div>
+        <div class="image">
+            <img id="diceImage1" src="dice1.png">
+            <img id="diceImage2" src="dice2.png">
+        </div>
+        <div class="buttons">
+            <button type="button" class="btn btn-primary" onclick="rollDice()">Roll the dice</button>
+            <button type="button" class="btn btn-secondary" onclick="editNames()">Edit Names</button>
+        </div>
+    </div> 
+    <script src="dicebym.js"></script>
+</body>
+</html>
